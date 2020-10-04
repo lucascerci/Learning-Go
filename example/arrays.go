@@ -22,7 +22,7 @@ func main() {
 
 	//so arrays with fixed lenght sound incovenient, well, they are, if i wanted to put 6 element
 	//out of the b array i cant because the lenght of the array is part of the array type
-	//to overcome this its possible to use slices, slices are a abstraction of the top of arrays to make
+	//to overcome this its possible to use slices, slices are am abstraction of the top of arrays to make
 	//them easily to work with, they dont have a fix number of lenght
 	
 	//slice example
