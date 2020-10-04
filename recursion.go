@@ -1,16 +1,18 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
-func main () {
+func main() {
 	num := 5
 	fmt.Println(factorial(num))
 }
 
-func factorial (num int) int {
+func factorial(num int) int {
 	if num == 0 {
 		return 1
 	}
-	
+
 	return num * factorial(num-1)
 }
